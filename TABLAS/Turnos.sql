@@ -8,4 +8,4 @@ CREATE TABLE CentroMedico.dbo.Turnos (
 );
 
 
-ALTER TABLE CentroMedico.dbo.Turnos ADD CONSTRAINT Turnos_TurnosEstado_FK FOREIGN KEY (estado) REFERENCES CentroMedico.dbo.TurnosEstado(idEstado);
+

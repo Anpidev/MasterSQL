@@ -14,6 +14,4 @@ CREATE TABLE CentroMedico.dbo.Paciente (
 );
 
 
-ALTER TABLE CentroMedico.dbo.Paciente 
-ADD CONSTRAINT Paciente_Pais_FK FOREIGN KEY (idPais) 
-REFERENCES CentroMedico.dbo.Pais(idPais);
+

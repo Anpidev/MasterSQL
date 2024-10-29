@@ -9,6 +9,4 @@ CREATE TABLE CentroMedico.dbo.Pago (
 );
 
 
-ALTER TABLE CentroMedico.dbo.Pago 
-ADD CONSTRAINT Pago_Concepto_FK FOREIGN KEY (concepto) 
-REFERENCES CentroMedico.dbo.Concepto(idConcepto);
+
